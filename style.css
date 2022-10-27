@@ -118,9 +118,7 @@ p {
 .footer {
     position: absolute;
     background-color: #FF7F99;
-    height: 400px; }
-
-.members {
+    height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-content: center;
