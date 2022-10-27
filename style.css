@@ -1,119 +1,115 @@
-body {
-    font-family: 'Jost', sans-serif;
+body{
+    font-family: 'Jost', serif;
     margin: 0;
     padding: 0;
-    width:100%; 
 }
 
-.header {
-    background-color: #FF7F99;
+.header{
+    background-color: #ff7f99;
     height: 100px;
-    font-family: 'Jost', sans-serif;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 20;
-   
-
+    font-size: 20px;
+    justify-content: space-between;
+    
 }
 
-h1 {
+h1{
+    
     color: white;
     padding-left: 30px;
+   
 }
 
 span {
-    color: #FFCA41;
+    color: #ffca41;
+    
 }
 
-ul {
+ul{
     display: flex;
-    color:white;
-    list-style-type: none;
     flex-direction: row;
-    padding-right: 30px;  
+    list-style-type: none;
+    color: white;
+    padding-right: 30px;
 }
 
-li {
+li{
     padding: 10px 40px;
 }
-   
-    
-li:hover {
+
+li:hover{
     background-color: rgba(255, 202, 65, 0.3);
-    border: 1px solid #FFCA41;
+    border: 1px solid #ffca41;
     border-radius: 30px;
+
 }
 
-.circle {
-    background-color: #FF7F99;
-    border-radius: 50%;
-    width: 400px;
-    height: 400px; 
-}
-
-.square {
-    background-color: #FF7F99;
-    width: 200px;
-    height: 200px;
-    display:flex;
-    position:absolute;
-    left: 308px;
-}
-
-.figure {
-    display:flex;
-    align-items:flex-start;
-}
-
-.box {
+.box{
     display: flex;
     flex-direction: row;
-    padding: 50px 100px;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 100px;
 }
 
-.circle2 {
-    display: flex;
+
+.boxItem1{
     position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ff7f99;
     border-radius: 50%;
-    width: 380px;
-    height: 380px;
-    left: -390px; 
-    top: 10px;
-    background-image: url(./images/Two-women-jumping-for-joy.png);
+    z-index: 1;
+}
+
+.square{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background-color: #ff7f99;
+    z-index: -1;
+}
+
+.circle2{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-image: url(./Pictures/Two-women-jumping-for-joy.png
+    );
     background-size: cover;
 }
-.figure2 {
+
+h2{
+    color:#D06077;
+    font-size: 80px;
+    margin-bottom: 0;
+    line-height: 0.8;
+    margin-top: 120px;
+}
+
+.boxItem2{
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
 }
 
-h2 {
-    color: #FF7F99;
-    font-family: 'Jost', sans-serif;
-    font-size: 60px;
-    margin-bottom: 0; 
-    font-weight: 400;
-    line-height: 0.9;
-    
-}
- 
-p {
-    font-family: 'Jost', sans-serif;
-    
-    
-}
-.te-llamamos {
-    font-family: 'Jost', sans-serif;
-    padding: 10px 40px; 
-    background-color: #FFCA41;
-    color: white;
+.te-llamamos{
+    padding: 10px 40px;
+    background-color: #ffca41;
     border-radius: 35px;
+    color: white;
     align-self: flex-start;
-    font-weight: 500;
- 
-}   
+}
 
 .footer {
     position: absolute;
