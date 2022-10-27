@@ -1,7 +1,8 @@
 .body{
     font-family: 'Jost', sans-serif;
+    
     margin: 0;
-    width: 100%;
+    width: none;
 }
 
 .header{
@@ -63,7 +64,7 @@ span{
     left: -390px; 
     width: 380px;
     height: 380px;
-    background-image: url(./images/elvia.jpeg);
+    background-image: url(./pictures/elva.jpeg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -113,7 +114,105 @@ p{
     font-weight: 100;
 }
 
-.footer{
-    background-color: #ff7f99;
+.footer {
+    position: relative;
+    background-color: #FF7F99;
     height: 400px;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    column-gap: 40px;
+    justify-content: space-between;
+    
+   
+    }
+
+ .pictureelvia {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    top: 40px;
+    background-image: url(./images/elvia.jpeg);
+    background-size: cover;
+    margin-left:10px;
+    }
+
+ .picturemagda {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    top: 40px;
+    background-image: url(./images/magda.jpeg);
+    background-size: cover;
+    }
+
+.pictureshima {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    top: 40px;
+    background-image: url(./images/shima.jpeg);
+    background-size: cover;
+    }
+
+
+ .picturezindy {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    top: 40px; 
+    background-image: url(./images/zindy.jpeg);
+    background-size: cover;
+    }
+ 
+.picturebianca {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    top: 40px;
+    background-image: url(./images/bianca.jpeg);
+    background-size: cover;
+    margin-right: 10px; 
+    
+    }
+
+    .name {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        
+      }
+
+    .position { 
+        color:black;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        
+    }
+
+    .logo { 
+        color:black;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 30px;
+        margin-top: 0px;
+        
+    }
+
+    
+
+
+    

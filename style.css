@@ -112,44 +112,48 @@ h2{
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     background-color: #FF7F99;
     height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-content: center;
+    column-gap: 40px;
+    justify-content: space-between;
+    
    
     }
 
  .pictureelvia {
     display: flex;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    width: 277px;
-    height: 277px;
-    top: 20px;
+    width: 215px;
+    height: 215px;
+    top: 40px;
     background-image: url(./images/elvia.jpeg);
     background-size: cover;
+    margin-left:10px;
     }
 
  .picturemagda {
     display: flex;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    width: 277px;
-    height: 277px;
-    top: 20px;
+    width: 215px;
+    height: 215px;
+    top: 40px;
     background-image: url(./images/magda.jpeg);
     background-size: cover;
     }
 
 .pictureshima {
     display: flex;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    width: 277px;
-    height: 277px;
-    top: 20px;
+    width: 215px;
+    height: 215px;
+    top: 40px;
     background-image: url(./images/shima.jpeg);
     background-size: cover;
     }
@@ -157,24 +161,25 @@ h2{
 
  .picturezindy {
     display: flex;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    width: 277px;
-    height: 277px;
-    top: 20px; 
+    width: 215px;
+    height: 215px;
+    top: 40px; 
     background-image: url(./images/zindy.jpeg);
     background-size: cover;
     }
  
 .picturebianca {
     display: flex;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    width: 277px;
-    height: 277px;
-    top: 20px;
+    width: 215px;
+    height: 215px;
+    top: 40px;
     background-image: url(./images/bianca.jpeg);
     background-size: cover;
+    margin-right: 10px; 
     
     }
 
@@ -182,7 +187,7 @@ h2{
         color: white;
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 200px;
         
       }
 
