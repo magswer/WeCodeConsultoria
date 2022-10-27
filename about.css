@@ -1,7 +1,8 @@
-body{
+.body{
     font-family: 'Jost', sans-serif;
+    
     margin: 0;
-    width: 100%;
+    width: none;
 }
 
 .header{
@@ -56,7 +57,7 @@ li:hover{
 .square{
     display:flex;
     position:absolute;
-    width: 192px;
+    width: 200px;
     height: 200px;
     background-color: #ff7f99; 
     left: 308px;
@@ -106,6 +107,11 @@ aside{
 p{
     font-family: 'Jost', sans-serif;
 }
+
+.logo1{ 
+  text-align: start;
+}
+
 
 .te-llamamos{
     padding:  10px 40px;
