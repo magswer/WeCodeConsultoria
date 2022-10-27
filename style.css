@@ -1,0 +1,216 @@
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    width:100%; 
+}
+
+.header {
+    background-color: #FF7F99;
+    height: 100px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20;
+   
+
+}
+
+h1 {
+    color: white;
+    padding-left: 30px;
+}
+
+span {
+    color: #FFCA41;
+}
+
+ul {
+    display: flex;
+    color:white;
+    list-style-type: none;
+    flex-direction: row;
+    padding-right: 30px;  
+}
+
+li {
+    padding: 10px 40px;
+}
+   
+    
+li:hover {
+    background-color: rgba(255, 202, 65, 0.3);
+    border: 1px solid #FFCA41;
+    border-radius: 30px;
+}
+
+.circle {
+    background-color: #FF7F99;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px; 
+}
+
+.square {
+    background-color: #FF7F99;
+    width: 200px;
+    height: 200px;
+    display:flex;
+    position:absolute;
+    left: 308px;
+}
+
+.figure {
+    display:flex;
+    align-items:flex-start;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px;
+}
+
+.circle2 {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+    left: -390px; 
+    top: 10px;
+    background-image: url(./images/Two-women-jumping-for-joy.png);
+    background-size: cover;
+}
+.figure2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+h2 {
+    color: #FF7F99;
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    margin-bottom: 0; 
+    font-weight: 400;
+    line-height: 0.9;
+    
+}
+ 
+p {
+    font-family: 'Jost', sans-serif;
+    
+    
+}
+.te-llamamos {
+    font-family: 'Jost', sans-serif;
+    padding: 10px 40px; 
+    background-color: #FFCA41;
+    color: white;
+    border-radius: 35px;
+    align-self: flex-start;
+    font-weight: 500;
+ 
+}   
+
+.footer {
+    position: absolute;
+    background-color: #FF7F99;
+    height: 400px; }
+
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+   
+    }
+
+ .pictureelvia {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 277px;
+    height: 277px;
+    top: 20px;
+    background-image: url(./images/elvia.jpeg);
+    background-size: cover;
+    }
+
+ .picturemagda {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 277px;
+    height: 277px;
+    top: 20px;
+    background-image: url(./images/magda.jpeg);
+    background-size: cover;
+    }
+
+.pictureshima {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 277px;
+    height: 277px;
+    top: 20px;
+    background-image: url(./images/shima.jpeg);
+    background-size: cover;
+    }
+
+
+ .picturezindy {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 277px;
+    height: 277px;
+    top: 20px; 
+    background-image: url(./images/zindy.jpeg);
+    background-size: cover;
+    }
+ 
+.picturebianca {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    width: 277px;
+    height: 277px;
+    top: 20px;
+    background-image: url(./images/bianca.jpeg);
+    background-size: cover;
+    
+    }
+
+    .name {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+      }
+
+    .position { 
+        color:black;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        
+    }
+
+    .logo { 
+        color:black;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 30px;
+        margin-top: 0px;
+        
+    }
+
+    
+
+
+    
