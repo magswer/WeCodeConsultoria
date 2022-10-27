@@ -1,0 +1,119 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.header{
+    background-color: #ff7f99;
+    height: 100px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+h1{
+    color: white; 
+    padding-left: 10px; 
+    margin-left: 10px;
+}
+
+span{ 
+    color: #ffca41;
+    }
+
+    ul{
+        display: flex;
+        color: white;
+        list-style: none;
+        flex-direction: row;
+        justify-content: end;
+        padding-right: 30px;
+    }
+    li{
+        padding: 10px 40px;
+    }
+
+    li:hover{
+        background-color: rgba(255, 202, 65, 0.3);
+        border: 1px solid #ffca41;
+        border-radius: 30px; 
+    }
+
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color: #ff7f99;
+    border-radius: 50%;
+}
+
+.square{
+    display:flex;
+    position:absolute;
+    width: 192px;
+    height: 200px;
+    background-color: #ff7f99; 
+    left: 308px;
+}
+.circle2{
+    position: relative;
+    top: 10px;
+    left: -390px; 
+    width: 380px;
+    height: 380px;
+    background-image: url(./pictures/elva.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.picture{
+    display: flex;
+    justify-items: center;
+}
+
+.box{
+    display: flex;
+    padding: 120px 100px;
+}
+aside{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap
+}
+
+h2{
+    color: #ff7f99;
+    font-family: 'jost', sans-serif;
+    font-weight: 900px;
+    font-weight: bold;
+    font-size:  50px;
+    margin-bottom: 0px;
+    order: -30px;
+}
+
+aside{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+.te-llamamos{
+    padding:  10px 40px;
+    border-radius: 35px;
+    color: white;
+    font-family: 'jost', sans-serif;
+    background-color: #ffca41;
+    align-self: flex-start; 
+    font-weight: 100;
+}
+
+.footer{
+    background-color: #ff7f99;
+    height: 400px;
+}
