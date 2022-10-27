@@ -1,8 +1,12 @@
-.body{
-    font-family: 'Jost', sans-serif;
-    
+body{
+    font-family: 'Jost', serif;
     margin: 0;
     width: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
 }
 
 .header{
