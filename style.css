@@ -131,7 +131,6 @@ h2{
     }
 
  .pictureelvia {
-    display: flex;
     position: absolute;
     border-radius: 50%;
     width: 215px;
@@ -143,7 +142,6 @@ h2{
     }
 
  .picturemagda {
-    display: flex;
     position: absolute;
     border-radius: 50%;
     width: 215px;
@@ -154,7 +152,6 @@ h2{
     }
 
 .pictureshima {
-    display: flex;
     position: absolute;
     border-radius: 50%;
     width: 215px;
@@ -166,7 +163,6 @@ h2{
 
 
  .picturezindy {
-    display: flex;
     position: absolute;
     border-radius: 50%;
     width: 215px;
@@ -177,7 +173,6 @@ h2{
     }
  
 .picturebianca {
-    display: flex;
     position: absolute;
     border-radius: 50%;
     width: 215px;
