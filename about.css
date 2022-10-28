@@ -143,13 +143,19 @@ aside{
     flex-direction: column;
 }
 
+.title{
+    font-size: 25px;
+}
 p{
     font-family: 'Jost', sans-serif;
+    font-size: 20px;
+ 
 }
 
 .lite{
     display: flex;
     flex-direction: row;
+ 
     
 }
 .linkedin{
@@ -157,6 +163,8 @@ p{
     justify-content: center;
     align-content: center;
     padding-right: 10px;
+    word-wrap: break-word;
+   
 }
 
 
@@ -168,6 +176,7 @@ p{
     background-color: #ffca41;
     align-self: flex-start; 
     font-weight: 600;
+    
     
 }
 
