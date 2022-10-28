@@ -118,7 +118,7 @@ h2{
     line-height: 0.9;
 }
 
-.text{
+.title{
     margin-top: 0;
     font-size: 25px;
 
@@ -126,7 +126,7 @@ h2{
 
 .text1{
     font-size: 20px;
-    inline-size: 600px;
+    inline-size: 450px;
     overflow-wrap: break-word;
     text-align: justify;
 }
