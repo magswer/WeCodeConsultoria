@@ -72,8 +72,8 @@ li:hover{
     border: 10px solid rgba(255, 236, 142, .5);
     border-radius: 25%;
     max-width: 1100px;
-    height: 45%;
-    margin: 5% auto;
+    height: 60%;
+    margin: 1% auto;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2,1fr);
@@ -185,7 +185,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .social a{
