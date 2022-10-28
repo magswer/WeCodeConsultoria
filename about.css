@@ -52,13 +52,15 @@ li:hover{
 
 }
 
-    .box{
+.box{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         padding: 50px, 0;
         gap: 100px;
-    }
+        margin: auto;
+}
 
 .circle{
     display: flex;
@@ -159,12 +161,8 @@ p{
     
 }
 .linkedin{
-    font-size: 50px;
-    justify-content: center;
-    align-content: center;
+    font-size: 60px;
     padding-right: 10px;
-    word-wrap: break-word;
-   
 }
 
 
@@ -176,8 +174,6 @@ p{
     background-color: #ffca41;
     align-self: flex-start; 
     font-weight: 600;
-    
-    
 }
 
 .footer {
