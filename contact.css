@@ -1,10 +1,15 @@
-/* Formulario */
 
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh;
 }
 
 /* ----------------- HEADER ----------------- */
@@ -55,6 +60,7 @@ li:hover{
 }
 
 /* ----------------- FORMULARIO ----------------- */
+
 .infoForm{
     display: flex;
     flex-direction: column;
@@ -62,36 +68,35 @@ li:hover{
 }
 
 .containerForm{
-    padding: 5%;
-    /* background-color: aliceblue; */
-    border: 28px solid rgba(255, 236, 142, .5);
+    padding: 1%;
+    border: 10px solid rgba(255, 236, 142, .5);
     border-radius: 25%;
-    width: 50%;
     max-width: 1100px;
-    margin: auto;
+    height: 45%;
+    margin: 5% auto;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
-    margin: 90px 300px;
+    
 }
 .containerForm h2{
-    margin-bottom: 15px;
-    font-size: 30px;
+
+    font-size: 35px;
 }
+
 h2{
     background-color: #ff7f99;
     color: white;
-    padding: 10px 40px;
-    font-weight: 400;
+    padding: 5px 5px;
+    font-weight: 600;
     border-radius: 40px;
+    font-size: 30px;
 }
-
 
 .containerForm p{
     font-size: 15px;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 30%;
 }
 
 .containerForm a{
@@ -101,7 +106,7 @@ h2{
     width: 100%;
     margin-bottom: 15px;
     color: black;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .containerForm a i{
@@ -111,29 +116,32 @@ h2{
 
 .containerForm form .box, textarea{
     width: 100%;
-    padding: 15px 10px;
-    font-size: 15px;
+    padding: 10px 10px;
+    font-size: 20px;
     border: 3px solid #ff7f99;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     border-radius: 30px;
-    outline: 0px;
 } 
 
 .containerForm form textarea{
-    min-width: 200px;
-    max-height: 100px;
-    min-height: 150px;
+    min-width: 50px;
+    max-height: 50px;
+    min-height: 100px;
 }
 .form{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.box{
+    bottom: 50%;
+    left: 50%;
+}
+
 .containerForm .button{
     padding: 2px 5px;
     font-size: 20px;
     border: none;
-    outline: 0px;
     background-color: #ffca41;
     color: white;
     border-radius: 30px;
@@ -151,25 +159,25 @@ h2{
 
 footer{
     background-color: #ff7f99;
-    height: auto;
+    height: 30vh;
     width: 100vw;
     
 }
 
 .footerBox{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3% 0;
 }
 
 .footerBox h3{
     color: #ffca41;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 1px;
+    line-height: 7px;
 }
 
 .social{
@@ -177,14 +185,11 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2% 0 4% 0;
-}
-
-.social li{
-    margin: 0 10px;
+    margin-top: 2%;
 }
 
 .social a{
+
     text-decoration: none;
     color: #fff;
 }
@@ -194,19 +199,6 @@ footer{
 }
 .social a:hover i{
     color: #ffca41;
-}
-
-.footerButoom p {
-    font-size: 15px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    
-}
-
-.footerButoom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
 }
 .footerButoom {
     display: flex;
