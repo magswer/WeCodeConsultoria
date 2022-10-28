@@ -7,6 +7,54 @@
     font-family: 'Jost', sans-serif;
 }
 
+/* ----------------- HEADER ----------------- */
+
+.header{
+    background-color: #ff7f99;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+
+h1{
+    
+    color: white;
+    padding-left: 30px;
+    font-weight: 600;
+   
+}
+
+span {
+    color: #ffca41;
+    
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    padding-right: 30px;
+}
+
+li{
+    padding: 10px 40px;
+}
+
+li:hover{
+    background-color: rgba(255, 202, 65, 0.3);
+    border: 1px solid #ffca41;
+    border-radius: 30px;
+
+}
+
+/* ----------------- FORMULARIO ----------------- */
 .infoForm{
     display: flex;
     flex-direction: column;
@@ -14,36 +62,40 @@
 }
 
 .containerForm{
-    width: 100%;
+    padding: 5%;
+    /* background-color: aliceblue; */
+    border: 28px solid rgba(255, 236, 142, .5);
+    border-radius: 25%;
+    width: 50%;
     max-width: 1100px;
     margin: auto;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
-    margin-top: 90px;
+    margin: 90px 300px;
 }
 .containerForm h2{
     margin-bottom: 15px;
-    font-size: 100px;
+    font-size: 30px;
 }
 h2{
     background-color: #ff7f99;
     color: white;
     padding: 10px 40px;
-    font-weight: 500;
-    border-radius: 20px;
+    font-weight: 400;
+    border-radius: 40px;
 }
 
 
 .containerForm p{
-    font-size: 30px;
+    font-size: 15px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
 .containerForm a{
-    font-size: 35px;
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -60,7 +112,7 @@ h2{
 .containerForm form .box, textarea{
     width: 100%;
     padding: 15px 10px;
-    font-size: 30px;
+    font-size: 15px;
     border: 3px solid #ff7f99;
     margin-bottom: 20px;
     border-radius: 30px;
@@ -68,10 +120,9 @@ h2{
 } 
 
 .containerForm form textarea{
-    max-width: 530px;
-    min-width: 530px;
-    max-height: 230px;
-    min-height: 230px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 150px;
 }
 .form{
     display: flex;
@@ -79,8 +130,8 @@ h2{
     justify-content: center;
 }
 .containerForm .button{
-    padding: 5px 10px;
-    font-size: 40px;
+    padding: 2px 5px;
+    font-size: 20px;
     border: none;
     outline: 0px;
     background-color: #ffca41;
@@ -93,5 +144,71 @@ h2{
     background-color: #ff7f99;
 }
 .button{
+    font-weight: 400;
+}
+
+/* ----------------- FOOTER ----------------- */
+
+footer{
+    background-color: #ff7f99;
+    height: auto;
+    width: 100vw;
+    
+}
+
+.footerBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerBox h3{
+    color: #ffca41;
+    font-size: 50px;
     font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0 4% 0;
+}
+
+.social li{
+    margin: 0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i{
+    font-size: 25px;
+}
+.social a:hover i{
+    color: #ffca41;
+}
+
+.footerButoom p {
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+}
+
+.footerButoom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footerButoom {
+    display: flex;
+    justify-content: center;
 }

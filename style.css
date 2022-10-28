@@ -27,6 +27,11 @@ span {
     
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
 ul{
     display: flex;
     flex-direction: row;
